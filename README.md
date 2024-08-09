@@ -1,3 +1,5 @@
+# Make a map for Hoverflow
+
 ## Installation
 
 1. Download the latest version of [Blender](https://www.blender.org/download/)
@@ -96,6 +98,14 @@ To test your map, you need to export it from Blender as a glTF file.
 2. Click **CUSTOM MAP** then **LOCAL FILE**
 3. Select the glTF file you just exported
 
+### Reloading the map while playing
+
+If you want to test changes you just made in Blender :
+
+1. Export the map to glTF again in Blender
+2. Open the menu by pressing **Escape**
+2. Click on **RELOAD**
+
 ## Publish to Steam Workshop
 
 When you are happy with your map and you tested it thoroughly, you can publish it to the [Hoverflow Workshop](https://steamcommunity.com/workshop/browse/?appid=1280060).
@@ -105,6 +115,23 @@ When you are happy with your map and you tested it thoroughly, you can publish i
 1. Enter a name for your level
 1. Click on **PUBLISH**
 1. If this is your first time publishing on the Workshop, the Steam Terms of Service page should appear, and you have to agree for your item to be visible in the workshop
+
+**Important:** After publishing for the 1st time your map, a **\<file-name\>.json** file is created, do not lose it and keep it with the same name as your **.glb** file ! It contains the Workshop ID associated to your **.glb** file and allows you to update your map !
+
+![alt text](img/publish.png)
+
+## Updtating your map after publishing
+
+If you want to update your map on the Steam Workshop after publishing it :
+
+1. [Open your file in Hoverflow](#opening-it-in-hoverflow), it will automatically recognize your ID if you still have the **\<file-name\>.json** in the same directory
+1. Open the menu with Esc
+1. Update the name for your level if you want !
+1. Click on **UPDATE**
+
+**Important:** You can update the thumbnail, description, and more directly from the Workshop !
+
+![alt text](img/update.png)
 
 ## Good practice
 
